@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h3>task 12</h3>
+    <input type="number" name="" id="num" placeholder="Enter a number to check">
+    <button onclick="testhundred()" class="btn">Check </button>
+    <p id="task12"></p>
+    
+    <script>
+        var x= document.getElementById("num").value;
+function testhundred() {
+  document.getElementById("task12").innerText= ((Math.abs(100 - x) <= 20) ||(Math.abs(400 - x) <= 20));
+}
+    </script>
+</body>
+</html>
